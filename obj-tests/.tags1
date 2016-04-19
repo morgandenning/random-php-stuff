@@ -1,0 +1,44 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+object	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^    class object {$/;"	class	line:5
+sTable	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^        static public $sTable;$/;"	variable	line:6
+aValues	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^        static public $aValues = [];$/;"	variable	line:8
+aValues	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^        static public $aValues = [];$/;"	variable	line:8
+registerAutoloader	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^        static public function registerAutoloader() {$/;"	function	line:11
+getFieldObject	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^        static public function getFieldObject($sField = null) {$/;"	function	line:18
+new	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^        static public function new(...$aArgs): object {$/;"	function	line:31
+__set	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^        public function __set($sKey, $sVal){$/;"	function	line:35
+__get	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^        public function __get($sKey){$/;"	function	line:47
+__isset	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^		\/\/ public function __isset($sKey) {$/;"	function	line:79
+set	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^        public function set(...$aArgs) : object {$/;"	function	line:83
+xKey	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^                foreach ($aArgs[0] as $xKey => $xVal) {$/;"	variable	line:88
+field	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^    abstract class field {$/;"	class	line:101
+id	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^        protected $id;$/;"	variable	line:103
+value	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^        protected $value;$/;"	variable	line:104
+get	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^        public function get() {$/;"	function	line:106
+set	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^        public function set($xVal) {$/;"	function	line:111
+value	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^                $this->value = $this->validate($xVal);$/;"	variable	line:116
+validate	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^        abstract function validate($xVal);$/;"	function	line:128
+Exception	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^    abstract class Exception extends \\Exception {$/;"	class	line:134
+aErrors	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^        protected $aErrors = null;$/;"	variable	line:135
+aErrors	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^        protected $aErrors = null;$/;"	variable	line:135
+__construct	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^        public function __construct($sMessage, $sCode = 0, \\Exception $oPrev = null, $aErrors = null) {$/;"	function	line:137
+sCode	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^        public function __construct($sMessage, $sCode = 0, \\Exception $oPrev = null, $aErrors = null) {$/;"	variable	line:137
+aErrors	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^            $this->aErrors = $aErrors;$/;"	variable	line:140
+getErrors	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^        public function getErrors() {$/;"	function	line:143
+ValidateFieldFailed	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^    class ValidateFieldFailed extends Exception {}$/;"	class	line:148
+InvalidField	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^    class InvalidField extends Exception {}$/;"	class	line:149
+basic	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^    class basic extends \\objects\\field {$/;"	class	line:155
+validate	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^        public function validate($xVal) {$/;"	function	line:156
+uuid	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^    class uuid extends \\objects\\field {$/;"	class	line:161
+validate	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^        public function validate($xVal = false) : string {$/;"	function	line:163
+object	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^    class object extends \\objects\\object {$/;"	class	line:183
+test	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^    class test extends object {$/;"	class	line:187
+sTable	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^        static public $sTable = '_table';$/;"	variable	line:188
+sTable	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^        static public $sTable = '_table';$/;"	variable	line:188
+aFields	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^        static public $aFields = [$/;"	variable	line:190
+aFields	\\10.0.0.158\mdenning\Development\www\wwwroot\obj-tests\libs\objects\object.php	/^        static public $aFields = [$/;"	variable	line:190
